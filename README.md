@@ -51,8 +51,8 @@ Akun demo:
 
 | Email | Password |
 |-------|----------|
-| alice@docs.test | password |
-| bob@docs.test | password |
+| random | password |
+| random | password |
 
 ### 4. Jalankan (3 terminal atau 1 perintah)
 
