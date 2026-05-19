@@ -1,3 +1,4 @@
+git add README.mdHEAD
 # Collaborative Docs — Google Docs Clone (Laravel 12)
 
 Editor dokumen kolaboratif realtime dengan **multi-user editing**, **live cursor tracking**, **version history**, dan **conflict resolution** (siapa mengedit apa).
@@ -194,3 +195,6 @@ Browser B ──┘              │
 ## License
 
 MIT
+=======
+# Tugas_Web2_Google_Docs
+>>>>>>> fdea6b5f7890bf7a096fd5317507f315c0e131f9
