@@ -16,12 +16,12 @@
         @csrf
         <div>
             <label class="block text-sm font-medium mb-1">Email</label>
-            <input type="email" name="email" value="{{ old('email', 'alice@docs.test') }}" required
+            <input type="email" name="email" value="{{ old('email') }}" required
                 class="w-full rounded-lg border border-slate-300 px-3 py-2">
         </div>
         <div>
             <label class="block text-sm font-medium mb-1">Password</label>
-            <input type="password" name="password" value="password" required
+            <input type="password" name="password" required
                 class="w-full rounded-lg border border-slate-300 px-3 py-2">
         </div>
         <label class="flex items-center gap-2 text-sm">
@@ -37,10 +37,5 @@
         Belum punya akun?
         <a href="{{ route('register') }}" class="text-blue-600 hover:underline">Daftar</a>
     </p>
-
-    <div class="mt-6 text-xs text-slate-500 border-t pt-4">
-        <p>Demo: alice@docs.test / password</p>
-        <p>Demo: bob@docs.test / password</p>
-    </div>
 </div>
 @endsection
