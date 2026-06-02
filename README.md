@@ -40,15 +40,14 @@ Editor dokumen kolaboratif *realtime* yang dibangun dengan Laravel 12. Sistem in
    ```Bash
     cp .env.example .env
     php artisan key:generate
-
 Pastikan pengaturan .env Anda sudah benar:
-Cuplikan kode
-   ```DB_CONNECTION=sqlite
-      BROADCAST_CONNECTION=reverb
-```
+```Cuplikan kode
+   DB_CONNECTION=sqlite
+   BROADCAST_CONNECTION=reverb
+   ```
 4. **Database:**
    ```Bash
-  php artisan migrate
+   php artisan migrate
 
 
 Menjalankan Aplikasi
