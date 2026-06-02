@@ -32,36 +32,35 @@ Editor dokumen kolaboratif *realtime* yang dibangun dengan Laravel 12. Sistem in
    cd collaborative-docs
 
 2. **Install dependensi:**
-```Bash
-composer install
-npm install
-```
+   ```Bash
+   composer install
+   npm install
+  
 3. **Konfigurasi Environment:**
-```Bash
-cp .env.example .env
-php artisan key:generate
-```
+   ```Bash
+    cp .env.example .env
+    php artisan key:generate
+
 Pastikan pengaturan .env Anda sudah benar:
 Cuplikan kode
-```DB_CONNECTION=sqlite
-BROADCAST_CONNECTION=reverb
+   ```DB_CONNECTION=sqlite
+      BROADCAST_CONNECTION=reverb
 ```
 4. **Database:**
-```Bash
-php artisan migrate
-```
+   ```Bash
+  php artisan migrate
+
 
 Menjalankan Aplikasi
 Untuk menjalankan aplikasi, Anda memerlukan tiga proses yang berjalan secara bersamaan:
 Bash
 # Terminal 1: Laravel Server
-```php artisan serve
+    ```php artisan serve    
 # Terminal 2: WebSocket Server
-```php artisan reverb:start
-```
+    ```php artisan reverb:start
 # Terminal 3: Vite Dev Server
-```npm run dev
-```
+    ```npm run dev
+
 Akses aplikasi di: http://127.0.0.1:8000
 Cara Penggunaan
 1. Registrasi:Buka aplikasi dan buat akun baru melalui halaman Register.
