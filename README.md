@@ -66,5 +66,7 @@ Cara Penggunaan
 2. Login: Masuk ke akun Anda.
 3. Kolaborasi: Buat dokumen baru. Bagikan link dokumen kepada pengguna lain. Anda dan pengguna lain dapat mengetik di dokumen yang sama dan perubahan akan muncul secara realtime.
 4. Log Aktivitas: Lihat riwayat perubahan dokumen melalui menu Activity Log atau History
+```
 # Struktur Proyek
+KategoriDeskripsiModelsDocument, DocumentRevision, DocumentEdit, UserEventsDocumentContentUpdated, CursorMovedControllersAuthController, DocumentController, RevisionControllerFrontendeditor.js (Logika sync) & editor.css
 KategoriDeskripsiModelsDocument, DocumentRevision, DocumentEdit, UserEventsDocumentContentUpdated, CursorMovedControllersAuthController, DocumentController, RevisionControllerFrontendeditor.js (Logika sync) & editor.css
